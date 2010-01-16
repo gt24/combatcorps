@@ -7,9 +7,9 @@ Module AuthAPI
         Doc.ReadStartElement()
 
         If Doc.LocalName = "login" Then
-            Doc.ReadStartElement()
-            MsgBox(Doc.ReadElementString)
-            Doc.ReadEndElement()
+            'Doc.ReadStartElement()
+            'MsgBox(Doc.ReadElementString)
+            'Doc.ReadEndElement()
             Doc.Close()
             Return True
         Else
