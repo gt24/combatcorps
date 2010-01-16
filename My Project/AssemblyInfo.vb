@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("CombatCorps")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("CombatCorps")> 
-<Assembly: AssemblyCopyright("Copyright ©  2010")> 
+<Assembly: AssemblyTitle("Combat Corps Notifier")> 
+<Assembly: AssemblyDescription("Allows Combat Corps members to be notified of posts.")> 
+<Assembly: AssemblyCompany("Combat Corps")> 
+<Assembly: AssemblyProduct("Combat Corps Notifier")> 
+<Assembly: AssemblyCopyright("Copyright © Danopia 2010")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
