@@ -22,9 +22,24 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.IRCManager = New System.ComponentModel.BackgroundWorker
+        Me.SuspendLayout()
+        '
+        'IRCManager
+        '
+        Me.IRCManager.WorkerReportsProgress = True
+        Me.IRCManager.WorkerSupportsCancellation = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(406, 255)
+        Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.ResumeLayout(False)
+
     End Sub
+    Friend WithEvents IRCManager As System.ComponentModel.BackgroundWorker
 
 End Class
